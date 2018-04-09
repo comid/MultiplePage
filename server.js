@@ -23,5 +23,5 @@ new WebpackDevServer(webpack(config), {
     if (err) {
         console.log(err);
     }
-    console.log('server start');
+    console.log('http://localhost:3000/index');
 });
